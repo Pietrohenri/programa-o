@@ -1,0 +1,67 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>meu primeiro teste</title>
+  </head>
+  <body>
+    
+    <script>
+      
+       function pulaLinha(){
+         document.write("<br><br>");
+         document.write("<br><br>");
+         
+         
+
+       }
+       function mostra(frase) {
+
+         document.write(frase);
+         pulaLinha();
+
+       }
+
+      
+       var vitorias = parseInt (prompt ("entre com o numero de vitorias."));
+       
+
+       var empates = parseInt (prompt ("entre com o numeros de empates."));
+
+       var pontos = vitorias * 3 + empates ;
+
+       mostra ("os pontos do seu time é " + pontos );
+
+       if(pontos >28){
+
+       mostra ("seu time está melhor do que ano passado. ");
+       }
+
+
+       if (pontos < 28){
+
+       mostra ("Seu time está pior que o ano passado.");
+       }
+
+       if (pontos ==28){
+
+       mostra ("Seu time está igual ao ano passado.");
+       }
+
+       mostra ("FIM");
+
+
+
+
+      
+
+
+   
+
+    
+
+
+    </script>
+
+  </body>
+</html>
